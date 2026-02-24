@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato- Sistema de Organização e Planejamento Financeiro</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/contato.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="../imagens/logo.png" alt="Logo">
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li class="items">
+                    <a href="../../index.html">
+                        <i class="fas fa-home"></i> Home
+                        <img src="../imagens/icon_home.png" alt="home_icon" class="nav-icon">
+                    </a>
+                </li>
+                <li class="items">
+                    <a href="sobre.html">
+                        <i class="fas fa-info-circle"></i> Sobre
+                        <img src="../imagens/icon_sobre.png" alt="sobre_icon" class="nav-icon">
+                    </a>
+                </li>
+                <li class="items">
+                    <a href="duvidas.html">
+                        <i class="fas fa-question-circle"></i> Dúvidas Frequentes
+                        <img src="../imagens/icon_duvida.png" alt="duvida_icon" class="nav-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="mid">
+            <div id="titulo">
+                <h1 id="title">Contato</h1>
+            </div>
+        </div>
+    </header>
+
+    <div id="centro">
+        <div class="sobre-conteudo">
+            <h2>Entre em Contato</h2>
+            <p>Por meio de:</p>
+            <ul class="navbar">
+                <li class="items">
+                    <img src="../imagens/icon_email.png" alt="home_icon" class="nav-icon">
+                    Email
+                    <p id="destaque">contatogoldenpenguin@gmail.com</p>
+                </li>
+                <li class="items">
+                    <img src="../imagens/icon_telefone.png" alt="home_icon" class="nav-icon">
+                    Telefone
+                    <p id="destaque">(032) 91234-5678</p>
+                </li>
+            </ul>
+        </div>
+
+        <h2>Comentários e Avaliações</h2>
+        <div id="commentsSection"></div>
+        <form id="commentForm">
+            <textarea id="inputComment" placeholder="Deixe seu comentário" required></textarea>
+            <br>
+            <select id="inputRating">
+                <option value="⭐">⭐</option>
+                <option value="⭐⭐">⭐⭐</option>
+                <option value="⭐⭐⭐">⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐⭐" selected>⭐⭐⭐⭐⭐</option>
+            </select>
+            <button type="submit">Adicionar Comentário</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 golden penguin - Sistema de Organização e Planejamento Financeiro. Todos os direitos reservados.</p>
+            <p><a href="contato.html" style="color: white;">Contato</a> | <a href="politicas.html" style="color: white;">Política de Uso e Privacidade</a></p>
+        </div>
+    </footer>
+</body>
+</html>
